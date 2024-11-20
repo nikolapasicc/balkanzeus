@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/pozadina.png');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.sadrzaj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fdfdfd;
+    flex: 1 1 100%;
+}
+
+.kontakt-podaci {
+    margin-top: 20px;
+}
+
+.kontakt-forma {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.kontakt-forma h2 {
+    color: #fdfdfd;
+}
+
+.kontakt-forma form {
+    display: grid;
+    gap: 10px;
+}
+
+.kontakt-forma label {
+    color: #fdfdfd;
+}
+
+.kontakt-forma input,
+.kontakt-forma textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.kontakt-forma button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kontakt-forma button:hover {
+    background-color: #2980b9;
+}
+.kontakt-forma button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    main {
+        margin-top: 50px;
+    }
+
+    .sadrzaj {
+        flex-direction: column;
+    }
+
+    
+}
+
+
